@@ -4,22 +4,27 @@
   "description": "Conditionally run promise series",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine ./test/*.spec.js -recursive",
+    "lint": "eslint ./lib/**/*.js"
   },
   "repository": "https://github.com/jbgraug/promif.git",
   "keywords": [
     "Promise",
-    "Series",
-    "If",
+    "series",
+    "if",
+    "then",
     "conditional",
     "flow",
     "Promisify",
     "condition",
-    "Promise",
+    "when",
+    "promif",
     "serializer",
     "sequencer",
     "Promise",
     "sequence",
+    "promise sequence",
+    "promise serial",
     "waterfall",
     "promises"
   ],
@@ -29,6 +34,7 @@
     "debug": "^2.6.6"
   },
   "devDependencies": {
+    "eslint": "^3.19.0",
     "jasmine": "^2.6.0"
   },
   "engines": {

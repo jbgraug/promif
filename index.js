@@ -7,9 +7,4 @@
  *  @author {Juan Grau <jbgraug@gmail.com>}
  */
 
-const promif = require('./lib/promif');
-
-/**
- *
- */
-module.exports = promif;
+module.exports = require('./lib/promif');
