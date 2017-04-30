@@ -1,7 +1,7 @@
 {
   "name": "promif",
   "version": "1.0.0",
-  "description": "Conditionally run promise series",
+  "description": "Conditionally run promise series waterfall alike, every poromise in the chan will get the previous result. At the end you get the an array with all the results, being the laters the final outcome",
   "main": "index.js",
   "scripts": {
     "test": "jasmine ./test/*.spec.js -recursive",
