@@ -1,0 +1,37 @@
+{
+  "name": "promif",
+  "version": "1.0.0",
+  "description": "Conditionally run promise series",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": "https://github.com/jbgraug/promif.git",
+  "keywords": [
+    "Promise",
+    "Series",
+    "If",
+    "conditional",
+    "flow",
+    "Promisify",
+    "condition",
+    "Promise",
+    "serializer",
+    "sequencer",
+    "Promise",
+    "sequence",
+    "waterfall",
+    "promises"
+  ],
+  "author": "Juan Grau <jbgraug@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.6"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "engines": {
+    "node": ">4.0.0"
+  }
+}
