@@ -1,6 +1,6 @@
 # Promif
 
-Promif controls your workflow control using promises (even for the test expression)
+Promif controls your workflow control using promises (even for the test expression).
 
 ## promif.when
 
@@ -13,7 +13,7 @@ Async test function:
         return new Promise(resolve=>{setTimeout(()=>resolve(true),500)});
      };
         
-    promif({
+    promif.when({
         test: asyncTestFunction
         whenTrue: ()=>Promise.resolve(true);
         whenFalse: ()=>Promise.resolve(false);
@@ -25,8 +25,8 @@ Sync test
     
     let x = 23;
     
-    promif({
-        test: a === 23
+    promif.when({
+        test: a === 23 // Sync test (expression)
         whenTrue: ()=>Promise.resolve('Yahoo');
         whenFalse: ()=>Promise.resolve(false);
     }).then((res)=>{
@@ -72,7 +72,6 @@ Every promise gets the result of the previous resolved promise
             });
  
  
-by jbgraug
 
 
 
