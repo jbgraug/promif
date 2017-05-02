@@ -1,10 +1,10 @@
 {
   "name": "promif",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Conditionally run promise series waterfall alike, every promise in the chain will get the previous result. At the end you get the an array with all the results, being the laters the final outcome",
   "main": "index.js",
   "private": false,
-  "publishConfig":{
+  "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
